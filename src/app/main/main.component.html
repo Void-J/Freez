@@ -1,0 +1,117 @@
+<app-header></app-header>
+<div class="compagny">
+    <h1>Notre compagnie</h1>
+    <h2>Freez est situé à Paris</h2>
+    <p class="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer turpis est, interdum vel hendrerit vel, blandit finibus erat. Aenean pellentesque iaculis urna, vel suscipit libero pretium vel. In hac habitasse platea dictumst. Etiam dignissim nibh
+        mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+    <br>
+    <p class="sec">Ut accumsan elit pulvinar velit convallis tincidunt. Etiam commodo pharetra velit a gravida. Suspendisse bibendum eros mauris, vel efficitur augue laoreet eget.
+    </p>
+    <div class="image">
+        <img src="./assets/presentation.png" class="img-responsive wow fadeInUp animated" alt="website template image" style="visibility: visible; animation-name: fadeInUp;">
+    </div>
+</div>
+<div class="section">
+    <div class="selec">
+        <div class="wrapper">
+            <br><br><br><br><br>
+            <h2>Gagne en expérience</h2>
+            <div clas="lorem">
+                <p>Avec nous c’est fini les jobs étudiants ou tu n’apprends rien ! Freez a mis au point des cours en ligne et en présentiel avec comme thématique principale “le Numérique” !
+                </p>
+                <p>Tu t’inscris, tu te formes, c’est gratuit !
+                </p>
+                <p>Et en prime, dès que tu es prêt tu peux commencer à appliquer en Freelance à travers des missions intéressantes et gagner de l’argent ! (jusqu’à 7 fois plus qu’avec un simple job étudiant)
+                </p>
+            </div>
+            <i class="sprite sparkle one"></i>
+            <i class="sprite sparkle two"></i>
+            <i class="sprite pop tree"></i>
+            <i class="sprite cross four"></i>
+            <i class="sprite cross five"></i>
+            <i class="sprite pop six"></i>
+            <i class="sprite cross seven"></i>
+            <div class="userExperience">
+            </div>
+        </div>
+    </div>
+</div>
+<ngu-carousel [inputs]="carouselBanner" (onMove)="onmoveFn($event)">
+
+    <ngu-item NguCarouselItem class="bannerStyle">
+        <img src="https://images.unsplash.com/photo-1518600506278-4e8ef466b810?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=858391bd28bf4aadaa5b3e0750edb485&auto=format&fit=crop&w=1893&q=80">
+    </ngu-item>
+
+    <ngu-item NguCarouselItem class="bannerStyle">
+        <img src="https://images.unsplash.com/photo-1501228349589-c88664efb8b1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c649aa23343fb3299b94e0c4628f289c&auto=format&fit=crop&w=1950&q=80">
+    </ngu-item>
+
+    <ngu-item NguCarouselItem class="bannerStyle">
+        <img src="https://images.unsplash.com/photo-1522199696220-f42195d8b7fb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0942b0905adcc3cf9f7b7b4f78bc1ddf&auto=format&fit=crop&w=1952&q=80">
+    </ngu-item>
+
+    <button NguCarouselPrev class='leftRs'><i class="material-icons reverse">play_arrow</i></button>
+    <button NguCarouselNext class='rightRs'><i class="material-icons">play_arrow</i></button>
+</ngu-carousel>
+<div class="section-bis">
+    <div class="wrapper-item">
+        <div class="persona">
+            <div class="persona-one">
+            </div>
+            <h2>Tom (Etudiant à l’ESSCA) :
+            </h2>
+            <br>
+            <h5>
+                Depuis que je me suis inscris chez Freez, j’ai pu apprendre à générer des leads à travers des campagnes marketing réussies ! Cela m’a permis de créer ma startup et de faire un chiffre d’affaire de 15 000 euros en 3 mois ! J’ai pu aussi m’autofinancer
+                grâce aux missions que me proposait Freez.
+
+            </h5>
+            <br>
+            <h5>
+                J’ai pu aussi m’autofinancer grâce aux missions que me proposait Freez.
+            </h5>
+        </div>
+        <div class="persona">
+            <div class="persona-two">
+            </div>
+            <h2>Isaure (Etudiante à l’EM Lyon) :
+            </h2>
+            <br>
+            <h5>
+                Proin tellus dolor, efficitur nec fermentum quis, tempus non libero. In blandit luctus massa ut mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus et dui sed nibh sodales posuere euismod id urna.
+            </h5>
+            <br>
+            <h5>
+                Proin tellus dolor, efficitur nec fermentum quis, tempus non libero. In blandit luctus massa ut mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus et dui sed nibh sodales posuere euismod id urna.
+            </h5>
+            <h5>
+                Per inceptos himenaeos. Vivamus et dui sed nibh sodales posuere euismod id urna.
+            </h5>
+        </div>
+        <div class="persona">
+            <div class="persona-tree">
+            </div>
+            <h2>Augustin (Etudiant à l’Edhec) </h2>
+            <br>
+            <h5>
+                Proin tellus dolor, efficitur nec fermentum quis, tempus non libero. In blandit luctus massa ut mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus et dui sed nibh sodales posuere euismod id urna.
+            </h5>
+            <br>
+            <h5>
+                Proin tellus dolor, efficitur nec fermentum quis, tempus non libero. In blandit luctus massa ut mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus et dui sed nibh sodales posuere euismod id urna.
+            </h5>
+            <h5>
+                Per inceptos himenaeos. Vivamus et dui sed nibh sodales posuere euismod id urna.
+            </h5>
+        </div>
+    </div>
+</div>
+
+<div class="contact">
+    <h1>Nous <strong>contacter</strong></h1>
+    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Curabitur varius lorem eget tortor commodo, at porttitor turpis dignissim. </h2>
+    <input name="email" type="email" class="form-control" placeholder="Votre Email" required="">
+    <input name="email" type="email" class="form-control" placeholder="Votre Nom" required="">
+    <textarea name="message" class="form-control" placeholder="Message" rows="6" required=""></textarea>
+    <input name="submit" type="submit" class="form-control submit" id="submit" value="SEND MESSAGE">
+</div>

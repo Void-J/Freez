@@ -16,20 +16,43 @@ import { AlertService, AuthenticationService, UserService } from './_services/in
 import { HomeComponent } from './home/index';
 import { LoginComponent } from './login/index';
 import { RegisterComponent } from './register/index';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { EntrepriseComponent } from './entreprise/entreprise.component';
+import { Header2Component } from './header2/header2.component';
+import { NavComponent } from './nav/nav.component';
+import { MainComponent } from './main/main.component';
+import { VlogComponent } from './vlog/vlog.component';
+import { FromationsComponent } from './fromations/fromations.component';
+import { VlogbisComponent } from './vlogbis/vlogbis.component';
+import { NguCarouselModule } from '@ngu/carousel';
+import 'hammerjs';
 
 @NgModule({
     imports: [
         BrowserModule,
         FormsModule,
         HttpClientModule,
-        routing
+        routing,
+        NguCarouselModule
     ],
     declarations: [
         AppComponent,
         AlertComponent,
         HomeComponent,
         LoginComponent,
-        RegisterComponent
+        RegisterComponent,
+        NavbarComponent,
+        HeaderComponent,
+        FooterComponent,
+        EntrepriseComponent,
+        Header2Component,
+        NavComponent,
+        MainComponent,
+        VlogComponent,
+        FromationsComponent,
+        VlogbisComponent,
     ],
     providers: [
         AuthGuard,

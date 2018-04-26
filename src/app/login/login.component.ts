@@ -5,7 +5,8 @@ import { AlertService, AuthenticationService } from '../_services/index';
 
 @Component({
     moduleId: module.id.toString(),
-    templateUrl: 'login.component.html'
+    templateUrl: 'login.component.html',
+    styleUrls: ['./login.component.css']
 })
 
 export class LoginComponent implements OnInit {
@@ -24,12 +25,12 @@ export class LoginComponent implements OnInit {
         this.authenticationService.logout();
 
         // get return url from route parameters or default to '/'
-        this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/';
+        this.returnUrl = this.route.snapshot.queryParams['returnUrl'] || '/home';
     }
 
     login() {
         this.loading = true;
-        this.authenticationService.login(this.model.username, this.model.password)
+        this.authenticationService.login(this.model.username, this.model.password, this.model.isConnected)
             .subscribe(
                 data => {
                     this.router.navigate([this.returnUrl]);

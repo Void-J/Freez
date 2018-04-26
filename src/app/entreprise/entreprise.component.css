@@ -1,0 +1,251 @@
+@font-face {
+    font-family: "open";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Open Sans Light"), local("OpenSans-Light"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTZ1r3JsPcQLi8jytr04NNhU.woff) format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300');
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+.section {
+    width: 100%;
+    height: 100vh;
+    padding-top: 1px;
+    background: linear-gradient(to top, #ff7e5f, #feb47b);
+    background: -webkit-linear-gradient(to top, #ff7e5f, #f89d57);
+    z-index: 2;
+    margin-top: -20px;
+}
+
+.section-second {
+    width: 100%;
+    height: 100vh;
+    padding-top: 1px;
+    background: -webkit-linear-gradient(to top, #06beb6, #06beb6);
+    z-index: 2;
+    margin-top: -20px;
+}
+
+.wrapper h2,
+h4 {
+    color: #fff;
+    margin-left: 5%;
+    margin-bottom: -50px;
+    font-size: 3.1em;
+    margin-bottom: 50px;
+}
+
+.wrapper-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.persona {
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    z-index: 2;
+    margin-top: 200px;
+    margin-bottom: 120px;
+}
+
+.wrapper-item h2 {
+    font-size: 23px;
+    color: #2e2e2e;
+    text-align: center;
+}
+
+.wrapper-item h5 {
+    font-family: "open", sans-serif;
+    color: #2e2e2e;
+    margin-top: -10px;
+    margin-left: 5%;
+}
+
+canvas,
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    background: -webkit-linear-gradient(bottom, #06beb6, #06beb6);
+    z-index: 2;
+    position: absolute;
+}
+
+.persona-one {
+    background: url('/assets/personaone.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin-top: -75px;
+    margin-left: 25%;
+}
+
+.persona-two {
+    background: url('/assets/persona-two.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin-top: -75px;
+    margin-left: 25%;
+}
+
+.persona-tree {
+    background: url('/assets/persona-tree.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin-top: -75px;
+    margin-left: 25%;
+}
+
+p {
+    font-family: "open", sans-serif;
+    color: #fff;
+    margin-left: 5%;
+    width: 40%;
+    position: relative;
+}
+
+.userExperience {
+    width: 530px;
+    height: 300px;
+    margin-top: -350px;
+    margin-left: 55%;
+    background: url('/assets/user_experience.jpg') no-repeat;
+    background-size: cover;
+    transition-property: transform;
+    transition-duration: 1s;
+    z-index: 3;
+    box-shadow: 5px 5px 10px rgb(75, 75, 75);
+}
+
+.userExperience:hover {
+    transform: translateY(-15px);
+}
+
+.sprite.sparkle {
+    -webkit-animation: sparkle 1.5s steps(17, start) forwards infinite;
+    animation: sparkle 1.5s steps(17, start) forwards infinite;
+    background-image: url(/assets/pop.png);
+    background-position: -731px;
+    background-size: 774px 43px;
+    height: 43px;
+    width: 43px;
+}
+
+.sprite.pop {
+    -webkit-animation: pop 2.91666666667s steps(34, start) forwards infinite;
+    animation: pop 2.91666666667s steps(34, start) forwards infinite;
+    background-image: url(/assets/popit.png);
+    background-position: -816px;
+    background-size: 840px 24px;
+    height: 24px;
+    width: 24px;
+}
+
+.sprite.cross {
+    -webkit-animation: cross 2.083325s steps(23, start) forwards infinite;
+    animation: cross 2.083325s steps(23, start) forwards infinite;
+    background-image: url(/assets/popout.png);
+    background-position: -600px;
+    background-size: 625px 25px;
+    height: 25px;
+    width: 25px;
+}
+
+.cross.four {
+    -webkit-animation-delay: .9s;
+    animation-delay: .9s;
+    top: 1100px;
+    left: 750px;
+    right: 0;
+}
+
+.cross.five {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: .9s;
+    top: 1100px;
+    left: 1350px;
+    right: 0;
+}
+
+.cross.seven {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: .9s;
+    top: 1000px;
+    left: 1200px;
+    right: 0;
+}
+
+.pop.six {
+    -webkit-animation-delay: 1s;
+    animation-delay: .9s;
+    top: 1350px;
+    left: 1330px;
+}
+
+.sparkle.one {
+    -webkit-animation-delay: .5s;
+    animation-delay: .9s;
+    left: 1000px;
+    top: 1380px;
+}
+
+.pop.tree {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    left: 850px;
+    top: 1400px;
+}
+
+.sparkle.two {
+    -webkit-animation-delay: .9s;
+    animation-delay: .5s;
+    left: 850px;
+    top: 1000px;
+}
+
+.sprite {
+    background-position: 0;
+    display: block;
+    position: absolute;
+    z-index: 3;
+}
+
+@keyframes sparkle {
+    0% {
+        background-position: 0;
+    }
+    40% {
+        background-position: -731px;
+    }
+    100% {
+        background-position: -731px;
+    }
+}
+
+@keyframes pop {
+    0% {
+        background-position: 0;
+    }
+    40% {
+        background-position: -816px;
+    }
+    100% {
+        background-position: -816px;
+    }
+}
+
+@keyframes cross {
+    0% {
+        background-position: 0;
+    }
+    40% {
+        background-position: -600px;
+    }
+    100% {
+        background-position: -600px;
+    }
+}

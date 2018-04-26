@@ -1,12 +1,37 @@
-﻿<div class="col-md-6 col-md-offset-3">
-    <h1>Hi {{currentUser.firstName}}!</h1>
-    <p>You're logged in with Angular 2/5 and Angular CLI!!</p>
-    <h3>All registered users:</h3>
-    <ul>
-        <li *ngFor="let user of users">
-            {{user.username}} ({{user.firstName}} {{user.lastName}})
-            - <a (click)="deleteUser(user.id)">Delete</a>
-        </li>
-    </ul>
-    <p><a [routerLink]="['/login']">Logout</a></p>
+﻿<header>
+    <nav id="navbar" class="" [ngClass]="{'page-scroll-header': isScrolled}">
+        <div class="nav-wrapper">
+            <div class="logo">
+                <a>Freez</a>
+            </div>
+            <ul id="menu">
+                <li><a routerLink="/formations">Formations</a></li>
+                <li><a routerLink="/vlogs">Vlog</a></li>
+                <li><a href="#login" routerLink="/login">Déconnexion</a></li>
+                <li><a routerLink="/home"><i class="material-icons">account_circle</i></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="wrapper">
+    <div class="card">
+        <br>
+        <div class="fadeIn first">
+            <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+        </div>
+        <h1>Bienvenu sur votre éspace personnel.</h1>
+        <div class="informations">
+            <h1>Votre pseudo : {{currentUser.firstName}}</h1>
+        </div>
+        <button class="btnn" routerLink="/formations">Je me lance !</button>
+        <!-- <p></p>
+        <h3>All registered users:</h3>
+        <ul>
+            <li *ngFor="let user of users">
+                {{user.username}} ({{user.firstName}} {{user.lastName}}) - <a (click)="deleteUser(user.id)">Delete</a>
+            </li>
+        </ul>
+        <p><a [routerLink]="['/login']">Logout</a></p>
+    -->
+    </div>
 </div>
