@@ -164,7 +164,7 @@ i {
 }
 
 .wrapper {
-    background: -webkit-linear-gradient(bottom, #74ebd5, #ACB6E5);
+    background: #fafafa;
 }
 
 .wrapper {
@@ -221,7 +221,6 @@ i {
     font-size: 0;
     border-radius: 5px;
     overflow: hidden;
-    margin-right: 50px;
     transition: all .2s ease-in-out;
     background: url('https://images.unsplash.com/photo-1496902526517-c0f2cb8fdb6a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8a8623f526569e949b73c4c7360d4532&auto=format&fit=crop&w=1950&q=80') center / cover;
 }
@@ -258,7 +257,6 @@ i {
     font-size: 0;
     border-radius: 5px;
     overflow: hidden;
-    margin-left: 50px;
     background: url('https://images.unsplash.com/photo-1520881363902-a0ff4e722963?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eaaa6e11b146f75c1a685578d3c89dff&auto=format&fit=crop&w=1950&q=80') center / cover;
 }
 
@@ -270,7 +268,6 @@ i {
     font-size: 0;
     border-radius: 5px;
     overflow: hidden;
-    margin-right: 50px;
     background: url('https://images.unsplash.com/photo-1456324463128-7ff6903988d8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d22c5323a3d34fe0fb2937d989bd296c&auto=format&fit=crop&w=1950&q=80') center / cover;
 }
 
@@ -282,7 +279,6 @@ i {
     font-size: 0;
     border-radius: 5px;
     overflow: hidden;
-    margin-left: 50px;
     background: url('https://images.unsplash.com/photo-1482440308425-276ad0f28b19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=95f938199a2d20d027c2e16195089412&auto=format&fit=crop&w=1950&q=80') center / cover;
 }
 
@@ -294,7 +290,6 @@ i {
     font-size: 0;
     border-radius: 5px;
     overflow: hidden;
-    margin-right: 50px;
     background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2562d07e189d92150c0b24ee243c5af2&auto=format&fit=crop&w=1950&q=80') center / cover;
 }
 
@@ -306,7 +301,6 @@ i {
     font-size: 0;
     border-radius: 5px;
     overflow: hidden;
-    margin-left: 50px;
     background: url('https://images.unsplash.com/photo-1520881363902-a0ff4e722963?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eaaa6e11b146f75c1a685578d3c89dff&auto=format&fit=crop&w=1950&q=80') center / cover;
 }
 
@@ -328,7 +322,7 @@ i {
     flex-wrap: wrap;
     flex-direction: row;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 50px;
 }
 
