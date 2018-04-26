@@ -1,6 +1,6 @@
 Pour copier le projet -> 
 
-- Avoir Git installer sur son poste. 
+- Avoir Git installé sur son poste. 
 - Créer un nouveau dossier.  
 - Une fois Git installé lancer un terminal et entrer la commande suivante lorsque vous serrez ce dossier. : 
 git clone https://github.com/Void-J/Freez.git
