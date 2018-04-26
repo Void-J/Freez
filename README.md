@@ -1,5 +1,10 @@
-# angular2-registration-login-example-cli
+Pour copier le projet -> 
 
-Angular 2/5 User Registration and Login Example with Angular CLI
+- Avoir Git installer sur son poste. 
+- Créer un nouveau dossier.  
+- Une fois Git installé lancer un terminal et entrer la commande suivante lorsque vous serrez ce dossier. : 
+git clone https://github.com/Void-J/Freez.git
+ -Une fois le projet copié entrer dans le dossier en ligne de commande et taper : sudo npm install
+ Pour finir taper : ng serve --o 
 
-To see a demo and further details go to http://jasonwatmore.com/post/2016/09/29/angular-2-user-registration-and-login-example-tutorial
+ Une page s'ouvrira automatiquement. 
